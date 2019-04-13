@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LATEST=`wget -q -O - "https://api.github.com/repos/muldjord/skyscraper/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/'`
+LATEST=`wget -q -O - "https://api.github.com/repos/DOCK-PI3/skyscraper/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/'`
 
 if [ ! -f VERSION ]
 then
@@ -11,7 +11,7 @@ source VERSION
 if [ "$LATEST" != "$VERSION" ]
 then
     echo "--- Fetching Skyscraper v.${LATEST} ---"
-    wget -N https://github.com/muldjord/skyscraper/archive/${LATEST}.tar.gz
+    wget -N https://github.com/DOCK-PI3/skyscraper/archive/${LATEST}.tar.gz
     if [ $? != 0 ]
     then
 	exit

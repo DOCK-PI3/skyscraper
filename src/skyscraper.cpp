@@ -1403,8 +1403,8 @@ void Skyscraper::loadWhdLoadMap()
     QFile whdLoadFile;
     if(QFileInfo::exists("whdload_db.xml"))
       whdLoadFile.setFileName("whdload_db.xml");
-    else if(QFileInfo::exists("/opt/retropie/emulators/amiberry/whdboot/game-data/whdload_db.xml"))
-      whdLoadFile.setFileName("/opt/retropie/emulators/amiberry/whdboot/game-data/whdload_db.xml");
+    else if(QFileInfo::exists("/opt/masos/emulators/amiberry/whdboot/game-data/whdload_db.xml"))
+      whdLoadFile.setFileName("/opt/masos/emulators/amiberry/whdboot/game-data/whdload_db.xml");
     else
       return;
 

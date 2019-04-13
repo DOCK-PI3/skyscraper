@@ -23,9 +23,9 @@
 [main]
 ##Setting input, gamelist or media folder here, will automatically append '/[platform]' to path.
 ##If you need better control, use the same variables under a [<platform>] section instead.
-#inputFolder="/home/pi/RetroPie/roms"
-#gamelistFolder="/home/pi/RetroPie/roms"
-#mediaFolder="/home/pi/RetroPie/roms"
+#inputFolder="/home/pi/MasOS/roms"
+#gamelistFolder="/home/pi/MasOS/roms"
+#mediaFolder="/home/pi/MasOS/roms"
 #cacheFolder="/home/pi/.skyscraper/cache"
 #cacheResize="false"
 #cacheCovers="true"
@@ -49,9 +49,9 @@
 #verbosity="1"
 #skipped="false"
 #maxFails="30"
-#lang="en"
+#lang="es"
 #region="wor"
-#langPrios="en,de,es"
+#langPrios="es,en,de"
 #regionPrios="eu,us,ss,uk,wor,jp"
 #minMatch="0"
 #artworkXml="artwork.xml"
@@ -62,9 +62,9 @@
 #spaceCheck="false"
 
 #[<PLATFORM, eg 'amiga'>]
-#inputFolder="/home/pi/RetroPie/roms/amiga"
-#gamelistFolder="/home/pi/RetroPie/roms/amiga"
-#mediaFolder="/home/pi/RetroPie/roms/amiga/media"
+#inputFolder="/home/pi/MasOS/roms/amiga"
+#gamelistFolder="/home/pi/MasOS/roms/amiga"
+#mediaFolder="/home/pi/MasOS/roms/amiga/media"
 #cacheFolder="/home/pi/.skyscraper/cache/amiga"
 #cacheResize="false"
 #cacheCovers="true"
