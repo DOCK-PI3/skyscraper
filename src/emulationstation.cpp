@@ -260,7 +260,7 @@ QString EmulationStation::getGameListFileName()
 
 QString EmulationStation::getInputFolder()
 {
-  return QString(QDir::homePath() + "/RetroPie/roms/" + config->platform);
+  return QString(QDir::homePath() + "/MasOS/roms/" + config->platform);
 }
 
 QString EmulationStation::getGameListFolder()

@@ -1480,7 +1480,7 @@ void Skyscraper::setLangPrios()
       config.langPrios.append(lang);
     }
   } else {
-    config.langPrios.append("en");
+    config.langPrios.append("eu");
   }
 }
 
